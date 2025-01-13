@@ -1,0 +1,99 @@
+header{
+    background-color: rgb(35, 35, 124);
+    padding: 15px;
+    color: aquamarine;
+    text-align: center;
+    border-radius: 15px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+nav ul li a:hover {
+    color: rgb(148, 148, 253);}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin: 0 15px 0;
+    text-align: center;
+    background-color: rgb(188, 188, 255);
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.boton-flotante{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    box-shadow:1px 1px 1px #ccc;
+    z-index: 100;
+}
+.boton-flotante img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 900pc;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.card{
+    background-color: rgb(211, 234, 253);
+    border: 1px solid rgb(188, 188, 255);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+
+}
+.card ul{
+    list-style-type: none;
+    padding: 0;
+    color: #48575f;
+}
+button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button :hover{
+    background-color: #1d7531;
+}
+.img-grande{
+    width: 300px;
+}
